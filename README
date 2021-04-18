@@ -1,0 +1,22 @@
+Alex Bartlett
+
+This project uses Python (version 3.6.12) and the common Python library NumPy 
+(version 1.19.1), as well as the re and math libraries that come standard
+with Python. It was developed using the Sublime Text 3 text editor and run
+on a Ubuntu system through the use of Windows Subsystem for Linux 2. 
+
+To run this code: 
+
+1) Ensure that Python and the required libraries are installed
+
+2) Ensure that the Lab1_driver.py file is located in the same
+directory as the Lab1_matrix_multiply.py and Lab1_utils.py files. This 
+directory should also contain a subdirectory entitled "input". 
+
+3) Open the Lab1_driver.py file and ensure that the paths on lines 19 
+and 27 point to your desired input file and output file, respectively.
+
+4) Open a terminal, navigate to the directory containing the Lab1_driver.py
+file, and enter the command "python Lab1_driver.py". If your input file is valid,
+your output will be written to the specified path. If not, you will receive an 
+error describing the issue with the input file. 
