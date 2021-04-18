@@ -1,0 +1,81 @@
+Input:
+4
+5 6 1 4
+7 2 8 1
+4 8 1 9
+5 2 4 3
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
+Original Method Product:
+5 6 1 4 
+7 2 8 1 
+4 8 1 9 
+5 2 4 3 
+
+Strassen Method Product:
+5 6 1 4 
+7 2 8 1 
+4 8 1 9 
+5 2 4 3 
+
+Multiplications in ordinary multiplication: 64
+Multiplications in Strassen's multiplication: 49
+
+
+Input:
+4
+5 6 1 4
+7 2 8 1
+4 8 1 9
+5 2 4 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Original Method Product:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Strassen Method Product:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Multiplications in ordinary multiplication: 64
+Multiplications in Strassen's multiplication: 49
+
+
+Input:
+4
+5.3 6.7 1.2 4.9
+7.8 2.5 8.7 1.5
+4.2 8.5 1.2 9.6
+5.3 2.1 4.2 3.0
+5.3 6.7 1.2 4.9
+7.8 2.5 8.7 1.5
+4.2 8.5 1.2 9.6
+5.3 2.1 4.2 3.0
+
+Original Method Product:
+111.36 72.75 86.67 62.24000000000001 
+105.33 135.60999999999999 47.849999999999994 129.99 
+144.48000000000002 79.75 120.75 73.64999999999999 
+78.00999999999999 82.76 42.269999999999996 78.44 
+
+Strassen Method Product:
+111.36 72.75000000000001 86.67 62.24000000000001 
+105.33 135.60999999999999 47.849999999999994 129.98999999999998 
+144.48000000000002 79.75000000000001 120.74999999999999 73.65000000000003 
+78.00999999999999 82.76 42.27000000000001 78.44 
+
+Multiplications in ordinary multiplication: 64
+Multiplications in Strassen's multiplication: 49
+
+
